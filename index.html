@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/primeira.png" alt="">
+            <p>Você gosta de tecnologia. Sua preferência seria por computador ou celular?</p>
+            <button class="btn-proximo" data-proximo="1">celular</button>
+            <button class="btn-proximo" data-proximo="2">computador</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Sua preferência por celular seria baseada em marca ou desempenho?</p>
+            <button class="btn-proximo" data-proximo="3">desempenho</button>
+            <button class="btn-proximo" data-proximo="4">marca</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Hoje, o S24 Ultra é o melhor celular para se ter, pois ele é ótimo e não impõe restrições sobre onde você pode mexer</p>
+            <button class="btn-proximo" data-proximo="5">final</button>
+            
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Hoje em dia, a Samsung é bem superior à Apple. Se você não vê isso, talvez já tenha se tornado um fã da Apple</p>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Espero que tenha gostado. Para me incentivar a continuar, poderia me fazer um Pix? 14998......</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Sua preferência sobre computador seria entre desktop ou notebook?</p>
+            <button class="btn-proximo" data-proximo="6">notebook</button>
+            <button class="btn-proximo" data-proximo="7">desktop</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>É uma ótima escolha para quem prefere algo portátil, mas não é tão indicado para quem gosta de jogar, embora seja possível jogar.</p>
+            <button class="btn-proximo" data-proximo="8">final</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>O desktop é uma opção que não é fácil de locomover, tendo em vista que é um computador para mesa.</p>
+            <button class="btn-proximo" data-proximo="9">mais</button>
+            
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Muito recomendado para quem prefere jogar, pois pode ser mais confortável e ter mais opções de modificação.</p>
+            <button class="btn-proximo" data-proximo="10">final</button>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
